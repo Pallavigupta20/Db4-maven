@@ -46,10 +46,10 @@
       <id>nexus-releases</id>
       <url>http://54.168.111.29:8081/repository/maven-releases/</url>
     </repository>
-    <snapshotsRepostiory>
+    <snapshotRepostiory>
     <id>nexus-snapshots</id>
     <url>http://54.168.111.29:8081/repository/maven-snapshots/</url>
-    </snapshotsRepository>
+    </snapshotRepository>
   </distributionManagement>
 
   <build>
