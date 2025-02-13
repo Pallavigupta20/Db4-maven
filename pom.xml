@@ -41,6 +41,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://54.168.111.29:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotsRepostiory>
+    <id>nexus-snapshots</id>
+    <url>http://54.168.111.29:8081/repository/maven-snapshots/</url>
+    </snapshotsRepository>
+  </distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
